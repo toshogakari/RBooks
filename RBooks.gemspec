@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require './version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "."
+  spec.name          = "RBook"
   spec.version       = .::VERSION
   spec.authors       = ["akihiro"]
   spec.email         = ["akihiro.uesaka@gmail.com"]
