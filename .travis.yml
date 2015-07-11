@@ -1,10 +1,11 @@
 language: ruby
 rvm:
 - 2.2.2
-
 before_install:
-  - gem update --system
-  - gem --version
-
+- gem update --system
+- gem --version
 script:
-  - bundle exec rake spec
+- bundle exec rake spec
+notifications:
+  slack:
+    secure: Wfj4tCdwlIvFxKzbOtsYJyxhUMOy+EAdZ+qm3NZX+n16XuJHpmN2h1gQoS4SRFQUTTI0HllNUOK9+2B6RvH1CUdgcYhMD3WXDMhZVwQTbMiQRGKUb/T2/9fJ9GhD1QHHCO4nLgDSH8XXxAtnlY2pVQXcQn4b0nYamDsVsWokiyW9zwcl7uyxKOwRq1R9FDgGOlV4p35n85D0G7oo20Cr2VQGbDxI7sBYo/C1xnR8YLztPvexk78IHEDUUHZiL9Gdhctb6NrhmaIUBBXMaNOgVTWCvFf6mjQ7K8F40wvBsqzNLs/fDn84NcaYp3FQMqmS4z3FdY7wheo08wXh5UPwC90qrRoLT4KvenFTCg0xCvmGhHhmxqZhuc8swVuR8L2uTDt+4jIL2ZMfMSqUP5fGZrCXeCNUoe7HouhSBb1AHCAWAQe5oMgw6ax3nkfw6hlAbfcFOp6VJySAacao+Kq29GkkNOB6f6pu4G1K255DXax4iS+8jcspSSVCt37fhT5I/mp8vVlJgmg0IDNERCePEl58bLCNxQKDQv9oA+37QAAM/ZIio0ApXcsci4QnsYQxhz29fullkSSiXDHIPJ7JuS/GMZV+yw+7KaeaIRONzl22+5nhkh8A+Vt8WmMvbHdR2kF8603LukFUbTddwMjJYyUNQ35VLMoeqcm68p4jeVc=
