@@ -1,7 +1,5 @@
 [![Build Status](https://travis-ci.org/toshogakari/rbooks.svg?branch=setting_travis)](https://travis-ci.org/toshogakari/rbooks)
-
 [![Code Climate](https://codeclimate.com/github/toshogakari/rbooks/badges/gpa.svg)](https://codeclimate.com/github/toshogakari/rbooks)
-
 [![Test Coverage](https://codeclimate.com/github/toshogakari/rbooks/badges/coverage.svg)](https://codeclimate.com/github/toshogakari/rbooks/coverage)
 
 
