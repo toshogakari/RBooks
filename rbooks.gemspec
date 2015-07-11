@@ -5,7 +5,7 @@ require 'rbooks/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rbooks"
-  spec.version       = Rbooks::VERSION
+  spec.version       = RBooks::VERSION
   spec.authors       = ["akihiro"]
   spec.email         = ["akihiro.uesaka@gmail.com"]
   spec.summary       = %q{rboos is a Web API wrapper which is Rakuten Books Book Search API.}
