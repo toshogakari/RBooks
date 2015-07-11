@@ -3,29 +3,39 @@
 [![Test Coverage](https://codeclimate.com/github/toshogakari/rbooks/badges/coverage.svg)](https://codeclimate.com/github/toshogakari/rbooks/coverage)
 [![Dependency Status](https://gemnasium.com/toshogakari/rbooks.svg)](https://gemnasium.com/toshogakari/rbooks)
 
-# RBooks
+RBooks
+=======
 
 TODO: Write a gem description
 
-## Installation
+Installation
+-------------
 
 Add this line to your application's Gemfile:
 
-    gem 'rbooks'
+```bash
+gem 'rbooks'
+```
 
 And then execute:
 
-    $ bundle
+```bash
+$ bundle
+```
 
 Or install it yourself as:
 
-    $ gem install rbooks
+```bash
+$ gem install rbooks
+```
 
-## Usage
+Usage
+-----
 
 TODO: Write usage instructions here
 
-## Contributing
+Contributing
+-------------
 
 1. Fork it ( https://github.com/[my-github-username]/rbooks/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)

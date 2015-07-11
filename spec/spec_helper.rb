@@ -19,6 +19,9 @@
 require 'webmock/rspec'
 require 'codeclimate-test-reporter'
 
+# code climate Coverage settings
+WebMock.allow_net_connect!
+
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
