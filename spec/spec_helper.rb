@@ -17,6 +17,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/
 require 'webmock/rspec'
+require 'codeclimate-test-reporter'
 
 RSpec.configure do |config|
   # rspec-expectations config goes here. You can use an alternate
@@ -92,5 +93,5 @@ RSpec.configure do |config|
   #   Kernel.srand config.seed
 
   config.color = true
-  # CodeClimate::TestReporter.start unless ENV['CODECLIMATE_REPO_TOKEN'] == nil
+  CodeClimate::TestReporter.start unless ENV['CODECLIMATE_REPO_TOKEN'].nil?
 end
