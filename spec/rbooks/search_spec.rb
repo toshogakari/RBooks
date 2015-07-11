@@ -1,4 +1,5 @@
 require 'spec_helper'
+require_relative '../../lib/rbooks'
 
 RSpec.describe RBooks::Search do
   it 'searches the books of its mached books' do
