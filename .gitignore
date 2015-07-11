@@ -21,3 +21,13 @@ tmp
 *.a
 mkmf.log
 .DS_Store
+/.bin/
+.project
+*.swp
+/$RECYCLE.BIN
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+/*.iml
+/.idea/
+/railways.cache
