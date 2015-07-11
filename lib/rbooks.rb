@@ -1,4 +1,4 @@
-require './rbooks/version'
+require_relative './rbooks/version'
 require 'net/https'
 require 'json'
 
