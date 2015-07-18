@@ -1,6 +1,7 @@
 require_relative './rbooks/version'
 require 'net/https'
 require 'json'
+require 'erb'
 
 module RBooks
   HOST = 'app.rakuten.co.jp'
@@ -34,7 +35,7 @@ module RBooks
       url += '?format=json'
 
       @params.each do |key, value|
-        url += "&#{key}=#{value}"
+        url += "&#{key}=#{ERB::Util.url_encode(value)}"
       end
 
       url += "&applicationId=#{@app_id}"
