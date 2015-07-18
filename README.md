@@ -3,7 +3,7 @@
 [![Test Coverage](https://codeclimate.com/github/toshogakari/rbooks/badges/coverage.svg)](https://codeclimate.com/github/toshogakari/rbooks/coverage)
 [![Dependency Status](https://gemnasium.com/toshogakari/rbooks.svg)](https://gemnasium.com/toshogakari/rbooks)
 
-RBooks
+rbooks
 =======
 
 TODO: Write a gem description
